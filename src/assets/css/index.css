@@ -69,13 +69,62 @@ h3 {
 .line {
     background-color: white;
     height: 3px;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
+}
+
+.highlighters {
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlighter-one {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.highlighter-two {
+    width: 20px;
+    height: 20px;
+    background-color:#dafffa;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.highlighter-three {
+    width: 20px;
+    height: 20px;
+    background-color:#92c2bc;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.highlighter-four {
+    width: 20px;
+    height: 20px;
+    background-color:#678985;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.highlighter-five {
+    width: 20px;
+    height: 20px;
+    background-color:#406564;
+    border-radius: 50%;
+    margin: 0;
 }
 
 .year li {
     font-size: 1.2rem;
     list-style: none;
+}
+
+ul .list {
+    font-size: 1rem;
 }
 
 .year .one {
@@ -101,3 +150,10 @@ h3 {
     color: #406564;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.list .event {
+    font-weight: bold;
+}
+
+
+
