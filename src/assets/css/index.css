@@ -66,6 +66,35 @@ h3 {
     text-align: center;
 }
 
+.years {
+    display: flex;
+    justify-content: space-around;
+}
+
+.one {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.two {
+    color: #dafffa;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.three {
+    color: #92c2bc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.four {
+    color: #678985;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.five {
+    color: #406564;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .line {
     background-color: white;
     height: 3px;
@@ -125,30 +154,6 @@ h3 {
 
 ul .list {
     font-size: 1rem;
-}
-
-.year .one {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.year .two {
-    color: #dafffa;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.year .three {
-    color: #92c2bc;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.year .four {
-    color: #678985;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.year .five {
-    color: #406564;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .list .event {
