@@ -40,22 +40,64 @@ h2 {
 }
 
 #about {
-    text-align: center;
-    position: relative;
-    width: 75%;
     font-size: 1.2rem;
     line-height: 2rem;
-    align-content: center;
 }
 
 h3 {
+    text-align: center;
     text-transform: uppercase;
     font-size: 1.8rem;
     letter-spacing: 5px;
+    line-height: 5rem;
     font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 #about p {
-    margin: 10px;
-    padding: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 10px 10px 40px 10px;
+    text-align: center;
+}
+
+#timeline {
+    text-align: center;
+}
+
+.line {
+    background-color: white;
+    height: 3px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.year li {
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.year .one {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.year .two {
+    color: #dafffa;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.year .three {
+    color: #92c2bc;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.year .four {
+    color: #678985;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.year .five {
+    color: #406564;
+    font-family: 'Times New Roman', Times, serif;
 }
