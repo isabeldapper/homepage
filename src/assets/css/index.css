@@ -41,6 +41,12 @@ h2 {
     font-size: 1rem;
 }
 
+/* ------------- C O N T E N T --------------*/
+
+.content {
+    padding: 30px;
+}
+
 /* --------------- A B O U T -----------------*/
 
 #about {
@@ -60,8 +66,6 @@ h3 {
 }
 
 #about p {
-    margin-left: 120px;
-    margin-right: 120px;
     padding: 0px 10px 30px 10px;
     text-align: center;
 }
@@ -72,36 +76,40 @@ h3 {
     padding: 10px 0 80px 0;
 }
 
-.years {
+.events {
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 12px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.event {
+    flex-grow: 1;
+    position: relative;
+}
+
+.year {
     letter-spacing: 5px;
     font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    width: 100%;
 }
 
-.one {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.two {
-    color: #dafffa;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.three {
-    color: #92c2bc;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.four {
-    color: #678985;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.five {
-    color: #406564;
-    font-family: 'Times New Roman', Times, serif;
+.event::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 43px;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .line {
@@ -111,64 +119,26 @@ h3 {
     margin: 0 auto;
 }
 
-.highlighters {
-    display: flex;
-    justify-content: space-around;
-}
-
-.highlighter-one {
+.highlighter {
     width: 20px;
     height: 20px;
     background-color: white;
     border-radius: 50%;
-    margin: 0;
 }
 
-.highlighter-two {
-    width: 20px;
-    height: 20px;
-    background-color:#dafffa;
-    border-radius: 50%;
-    margin: 0;
-}
-
-.highlighter-three {
-    width: 20px;
-    height: 20px;
-    background-color:#92c2bc;
-    border-radius: 50%;
-    margin: 0;
-}
-
-.highlighter-four {
-    width: 20px;
-    height: 20px;
-    background-color:#678985;
-    border-radius: 50%;
-    margin: 0;
-}
-
-.highlighter-five {
-    width: 20px;
-    height: 20px;
-    background-color:#406564;
-    border-radius: 50%;
-    margin: 0;
-}
-
-
-.event {
+.title {
     font-weight: bold;
     font-size: 1rem;
-    display: flex;
-    justify-content: space-around;
     padding: 5px;
+    margin: 20px 0 0 0;
+    display: block;
 }
 
 .description {
     font-size: 1rem;
     display: flex;
     justify-content: space-around;
+    margin: 0;
 }
 
 /* --------------- O R G A N I Z E -----------------*/
