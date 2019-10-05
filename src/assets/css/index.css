@@ -16,9 +16,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    position: relative;
     height: 550px;
-    margin-top: 40px;
+    margin-top: 3%;
     text-align: center;
 }
 
@@ -26,6 +25,7 @@ h1 {
     text-transform: uppercase;
     font-size: 2.8rem;
     letter-spacing: 15px;
+    padding-top: 15%;
 }
 
 h2 {
@@ -35,16 +35,20 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.contact{
+    padding-top: 10px;
+}
+
 .contact p {
     margin: 0px;
-    padding: 2px;
+    padding: 2px 0 0 0;
     font-size: 1rem;
 }
 
 /* ------------- C O N T E N T --------------*/
 
 .content {
-    padding: 30px;
+    padding: 5% 10%;
 }
 
 /* --------------- A B O U T -----------------*/
@@ -61,19 +65,19 @@ h3 {
     font-weight: lighter;
     letter-spacing: 5px;
     font-family: 'Times New Roman', Times, serif;
-    padding: 20px 0px 40px 0;
+    padding: 0px 0px 40px 0;
     margin: 0 auto;
 }
 
 #about p {
-    padding: 0px 10px 30px 10px;
+    padding-bottom: 70px;
     text-align: center;
 }
 /* --------------- T I M E L I N E -----------------*/
 
 #timeline {
     text-align: center;
-    padding: 10px 0 80px 0;
+    padding: 10px 0 100px 0;
 }
 
 .events {
@@ -146,4 +150,46 @@ h3 {
     font-size: 1rem;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+}
+
+/* -------------- E X P E R T I S E ----------------*/
+
+
+.skills {
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    height: 200px;
+    width: 200px;
+}
+
+.skill {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    border-radius: 50%;
+    border: 5px solid #c0fff7;
+    background-color: #fff;
+}
+
+h4 {
+    padding: 15px;
+    margin: 0;
+    color: #373741;
+    font-size: 11px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.references {
+    width: 33%
+}
+
+.interests {
+    width: 33% 
 }
