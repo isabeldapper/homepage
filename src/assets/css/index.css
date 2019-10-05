@@ -209,6 +209,43 @@ h4 {
     margin: 0;
 }
 
+/* -------------- I N T E R E S T S ----------------*/
+
 .interests {
     text-align: center; 
+}
+
+
+/* -------------- F O O T E R ----------------*/
+
+footer {
+    display: flex;
+}
+
+.informations {
+    text-align: left;
+    height: 50%;
+}
+
+.informations h3 {
+    text-align: left;
+}
+
+.informations p {
+    margin: 0 0 50px 0px;
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    padding: 0 10px 0 0;
+    font-size: 30px;
+    text-align: center;
 }
